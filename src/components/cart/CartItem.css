@@ -1,0 +1,54 @@
+.CartImg {
+  max-width: 350px;
+}
+
+.CartFlex {
+  display: flex;
+  align-items: center;
+  align-content: flex-start;
+  gap: 20px;
+}
+@media (max-width: 1950px) {
+  .CartFlex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+  }
+}
+
+.TitlePriceFlex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.CartDetailFlex {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  align-content: flex-start;
+  gap: 25px;
+  padding: 5px;
+}
+
+@media (max-width: 550px) {
+  .CartDetailFlex {
+    gap: 20px;
+    padding: 0;
+    align-items: flex-start;
+    max-width: 250px;
+  }
+}
+
+.RemoveItem {
+  cursor: pointer;
+}
+
+.QuantityFlex {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 700;
+}

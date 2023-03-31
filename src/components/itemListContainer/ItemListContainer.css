@@ -1,0 +1,45 @@
+.NavFilter {
+  padding: 15px;
+  margin-top: 3%;
+}
+.NavFilter {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: baseline;
+  gap: 40px;
+}
+
+@media (max-width: 990px) {
+  .NavFilter ul li {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+  }
+}
+
+.NavFilter a {
+  text-decoration: none;
+  color: rgb(27, 27, 27);
+  font-weight: 700;
+  font-family: "Agency FB";
+}
+
+.ItemListContainer {
+  position: relative;
+  top: 0;
+}
+
+.FilterFlex {
+  display: flex;
+  align-content: center;
+  gap: 10px;
+  font-family: "agency_fb", sans-serif;
+
+}
+
+
+.FilterFlex h6{
+  font-weight: 700;
+  letter-spacing: 2px;
+  padding-top: 3px;
+}

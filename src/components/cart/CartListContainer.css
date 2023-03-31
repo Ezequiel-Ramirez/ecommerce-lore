@@ -1,0 +1,163 @@
+
+
+.EmptyCart {
+  text-align: center;
+
+}
+
+
+.EmptyCartContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  margin-top: 80px;
+  font-family: "agency_fb", sans-serif;
+  margin-bottom: 50px;
+}
+
+
+.EmptyCartP {
+  margin-top: 50px;
+  font-size: 18px;
+}
+
+.CartItem {
+  margin-bottom: 100px;
+}
+
+@media (max-width: 1150px) {
+  .Cart {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: normal;
+    align-content: center;
+    gap: 5%;
+  }
+}
+
+.CartTitle {
+  font-weight: 600;
+  font-size: 35px;
+  margin: 40px 0;
+  padding: 10px 10px;
+  width: 100%;
+  background-color: rgb(29, 29, 29);
+  color: white;
+  border-radius: 5px;
+  letter-spacing: 2px;
+  font-family: "agency_fb", sans-serif;
+
+}
+
+.getTotal {
+  font-style: italic;
+}
+.TotalCartDetail {
+  font-size: 19px;
+  font-weight: 600;
+}
+
+.TotalCartDetailP {
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.CartItemRight {
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: -100px;
+}
+
+
+.GoToPay {
+  border-radius: 0;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  font-weight: 600;
+}
+
+.ProductsPriceFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ProductsPriceFlex p {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.DeliveryFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.DeliveryFlex .Delivery {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.DeliveryFlex .FreeOrPrice {
+  font-weight: 500;
+  font-size: 18px;
+}
+
+.Resume {
+  font-weight: 700;
+  font-size: 22px;
+}
+
+.ButtonFlex {
+  display: flex;
+  justify-content: space-between;
+}
+
+.PayEnd {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  text-align: center;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  transition: 0.5s;
+  margin-bottom: 20px;
+}
+
+.PayEnd:hover {
+  color: white;
+  background-color: rgb(31, 31, 31);
+}
+
+.PayEnd p {
+  transform: translate(0, 6px);
+  font-weight: 600;
+}
+
+.CartPaymenthMethods img {
+  max-width: 65px;
+  margin: 5px;
+}
+
+.FlexIconsCartContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+
+}
+
+
+.FlexIconsCart{
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}

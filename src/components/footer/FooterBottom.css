@@ -1,0 +1,22 @@
+.FooterBottom p {
+  color: white;
+  text-align: center;
+  font-family: "agency_fb", sans-serif;
+}
+
+.FooterBottom {
+  background-color: black;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  gap: 1%;
+}
+
+@media (max-width: 990px) {
+  .FooterBottom {
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+  }
+}

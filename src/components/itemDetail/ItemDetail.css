@@ -1,0 +1,221 @@
+.Container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 40px;
+}
+
+.ModalBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalBody img {
+  max-width: 300px;
+}
+
+@media (max-width: 990px) {
+  .Container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+  }
+
+  .DetailContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+}
+
+.DetailContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 3%;
+  max-width: 500px;
+  max-height: 500px;
+}
+
+.ColumnImage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.ColumnImage img {
+  width: 70px;
+}
+
+.ModalTitle {
+  font-size: 20px;
+}
+
+.Modal {
+  background-color: rgba(0, 0, 0, 0.519);
+  z-index: 50000;
+}
+
+.Modal .CreditCardsContainer {
+  border: 1px solid rgb(197, 197, 197);
+  padding: 2%;
+  border-radius: 15px;
+  margin-bottom: 40px;
+}
+
+.Modal .CreditCardsContainer .SpanClass {
+  font-weight: 700;
+  font-size: 15px;
+}
+
+.Modal .CreditCardsContainer p {
+  font-size: 15px;
+  letter-spacing: -0.6px;
+}
+
+.ModalBody {
+  display: flex;
+  flex-direction: column;
+}
+
+.ModalBody h6 {
+  font-weight: 600;
+  margin: 0 0 5px 0;
+}
+
+.DetailContainer .Button {
+  width: 100%;
+}
+
+.DetailContainer .AmountDiscount {
+  font-weight: 700;
+}
+
+.DetailContainer .IconContainer {
+  margin: 0 0 0 5px;
+}
+
+.DetailContainer h4 {
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+.DetailContainer .Price {
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: flex-start;
+  gap: 25%;
+}
+
+.DetailContainer .NavDetail {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5%;
+}
+
+.DetailContainer .NavDetail a {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+
+  transition: 3s ease;
+}
+
+.DetailContainer .NavDetail p {
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+
+  transition: 3s ease;
+}
+
+.DiscountContainer {
+  margin-top: 2%;
+  letter-spacing: -0.5px;
+}
+
+.PaymentsMethods {
+  color: black;
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.DetailContainer .NavDetail a:hover {
+  text-decoration: underline;
+}
+
+.DetailContainer .NavDetail span {
+  font-weight: 700;
+}
+
+.ImageDetail {
+  max-width: 500px;
+}
+
+.CreditCardsImg {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2%;
+}
+
+.CreditCardsImg img {
+  max-width: 50px;
+}
+
+.DebitCardsContainer {
+  border: 1px solid rgb(197, 197, 197);
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.DebitCardsImg {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2%;
+}
+
+.DebitCardsImg img {
+  max-width: 50px;
+}
+
+.CashContainer {
+  border: 1px solid rgb(197, 197, 197);
+  padding: 2%;
+  border-radius: 15px;
+}
+
+.CashCardsImg {
+  display: flex;
+  justify-content: flex-start;
+  gap: 2%;
+}
+
+.CashCardsImg img {
+  max-width: 50px;
+}
+
+p .StockProduct {
+  font-weight: 800;
+}
+
+.TitleHeartFlex {
+  display: flex;
+  justify-content: flex-start;
+  gap: 5%;
+  align-items: center;
+}
+
+.DetailDescription {
+  font-size: 16px;
+}
+
+.SizeParagraph {
+  font-weight: 600;
+  font-size: 14px;
+}
+
