@@ -8,7 +8,7 @@
 
 .NavBar a {
   text-decoration: none;
-  color: rgb(163, 163, 163);
+  color: white;
   letter-spacing: 2px;
   font-size: 16px;
   font-weight: 500;
@@ -16,6 +16,7 @@
   border-radius: 10px;
   padding: 3px 9px 3px 12px;
   transition: 0.3s;
+  text-shadow: 1px 1px 10px #515151;
 }
 
 @media (max-width: 990px) {
@@ -28,7 +29,8 @@
 }
 
 .NavBar .hvr-underline-from-left:hover {
-  color: rgb(236, 236, 236);
+  color: rgb(163, 163, 163);
+  text-shadow: 1px 1px 10px #bfbfbf;
 }
 
 .CartSocialFlex {

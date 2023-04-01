@@ -1,45 +1,48 @@
 .TopFooter {
-  background-color: #000000;
-  color: rgb(243, 243, 243);
-  text-align: center;
-  letter-spacing: 1px;
-  padding: 5px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding-top: 25px;
-  height: 80px;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #e58c8a 0%, #eec0c6 74%);
+    color: rgb(243, 243, 243);
+    text-align: center;
+    letter-spacing: 1px;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 25px;
+    height: 80px;
 }
 
 .TopFooter p {
-  font-size: 13px;
-  font-weight: 700;
+    font-size: 13px;
+    font-weight: 700;
+    font-family: "Cormorant", serif;
+    text-shadow: 1px 1px 10px #515151;
 }
 
 .TopFooter p span {
-  margin: 0 10px;
+    margin: 0 10px;
 }
 
 @media (max-width: 990px) {
-  .TopFooter {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    text-align: left;
-    align-items: center;
-    height: auto;
-  }
+    .TopFooter {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        text-align: left;
+        align-items: center;
+        height: auto;
+    }
 
-  .TopFooter p {
-    font-size: 10px;
-  }
+    .TopFooter p {
+        font-size: 10px;
+    }
 
-  .TopFooter p span {
-    margin: 0;
-  }
+    .TopFooter p span {
+        margin: 0;
+    }
 
-  .TruckIcon,
-  .MoneyIcon {
-    display: none;
-  }
+    .TruckIcon,
+    .MoneyIcon {
+        display: none;
+    }
 }

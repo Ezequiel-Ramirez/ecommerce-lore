@@ -18,8 +18,8 @@ function Header() {
       <Navbar
         collapseOnSelect
         expand="lg"
-        bg="dark"
-        variant="dark"
+        
+       
         className="Header py-0  "
       >
         <Container>

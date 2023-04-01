@@ -8,11 +8,11 @@ const SocialMedia = () => {
   return (
     <div className="SocialMedia">
       <a
-        href="https://www.instagram.com/staylo_cba/"
+        href="https://www.instagram.com/lovebylore_/"
         target="_blank"
         rel="noreferrer"
       >
-        <BsInstagram color="white" size={22} />
+        <BsInstagram color="white" size={22}  />
       </a>
       <a
         href="https://www.facebook.com/search/top?q=staylo_cba"

@@ -31,7 +31,7 @@ const Main = () => {
         </div>
       ) : (
         
-        <Background brand="Staylo" specs="Remeras Personalizadas" />
+        <Background brand="LOVE By LORE" specs="Lencería" />
         
       )}
     </main>

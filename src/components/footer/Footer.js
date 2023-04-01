@@ -50,7 +50,7 @@ function Footer() {
           <p className="FooterTitles">Nuestras redes sociales </p>
           <div className="FlexIcons">
             <a
-              href="https://www.instagram.com/staylo_cba/"
+              href="https://www.instagram.com/lovebylore_/"
               target="_blank"
               rel="noreferrer"
             >
@@ -68,23 +68,25 @@ function Footer() {
           <p className="FooterTitles">Contacto </p>
           <div className="ContactFlex">
             <a
-              href="https://www.instagram.com/staylo_cba/"
+              href="https://www.instagram.com/lovebylore_/"
               target="_blank"
               rel="noreferrer"
             >
               <FiMail color="white" size={17} className="me-1" />
             </a>
-            <p>stayloremeras@outlook.com.ar</p>
+            <a href="mailto:stayloremeras@outlook.com.ar" style={{textDecoration: 'none'}}>
+              <p >stayloremeras@outlook.com.ar</p>
+            </a>
           </div>
           <div className="ContactFlex">
             <a
-              href="https://www.instagram.com/staylo_cba/"
+              href="https://www.instagram.com/lovebylore_/"
               target="_blank"
               rel="noreferrer"
             >
               <GoLocation color="white" size={17} className="me-1" />
             </a>
-            <p>Córdoba, Argentina</p>
+            <p>Buenos Aires, Argentina</p>
           </div>
         </div>
       </section>

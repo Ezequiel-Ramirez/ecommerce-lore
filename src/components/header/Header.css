@@ -1,12 +1,14 @@
 header {
-  position: sticky;
-  top: 0;
-  width: 100%;
-  z-index: 10000;
+    position: sticky;
+    top: 0;
+    width: 100%;
+    z-index: 10000;
+    background-color: #eec0c6;
+    background-image: linear-gradient(315deg, #e58c8a 0%, #eec0c6 74%);
 }
 
 .HeaderFlex {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
