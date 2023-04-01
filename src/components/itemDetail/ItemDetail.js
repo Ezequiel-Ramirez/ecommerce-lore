@@ -123,7 +123,7 @@ const ItemDetail = ({ item }) => {
 
               <div className="TitleHeartFlex">
                 <h3> {item.title} </h3>
-                <ItemHeart />
+                <ItemHeart item={item}/>
               </div>
 
               <h4>${item.price}</h4>
@@ -140,7 +140,7 @@ const ItemDetail = ({ item }) => {
 
               <Link
                 className="PaymentsMethods"
-                variant="primary"
+                variant="secondary"
                 onClick={handleShow}
               >
                 Ver formas de pago

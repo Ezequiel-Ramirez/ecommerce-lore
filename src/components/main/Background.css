@@ -12,6 +12,11 @@
   background-color: rgba(0, 0, 0, 0.214);
   background-blend-mode: darken;
 }
+.Background h1 .coraHome {
+  width: 7vw;
+  margin-bottom: 20px;
+  filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000)
+}
 
 @media (max-width: 990px) {
   .Background {
@@ -19,6 +24,8 @@
     background-color: rgba(0, 0, 0, 0.614);
     height: 80vh;
   }
+ 
+  
 }
 .Background div {
   transform: translate(-15%, -10%);
@@ -32,6 +39,7 @@
   .Background div {
     transform: translate(0);
   }
+ 
 }
 
 .Background h1 {
@@ -45,12 +53,18 @@
   margin-bottom: 30px;
 }
 
+
+
 @media (max-width: 800px ) {
   .Background h1 {
     font-size: 16vw;
   }
+  
+  .Background h1 .coraHome {
+    width: 13vw;
+    filter: drop-shadow(0.25rem 0.25rem 0.5rem #000000)
+  }
 }
-
 
 
 .Background h2 {
@@ -75,9 +89,9 @@
   font-size: 20px;
   letter-spacing: 1px;
   color: rgb(245, 245, 245);
-  font-family: "agency_fb", sans-serif;
+  font-family: "Cormorant", serif;
   text-decoration: none;
-  background-color: #212429;
+  background-color: #dd6764;
   width: 150px;
   border-radius: 5px;
   padding: 1px;

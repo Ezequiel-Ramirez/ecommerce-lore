@@ -18,18 +18,20 @@ export const Item = (props) => {
     <div className="col-lg-4 col-md-6 mt-3">
       <Card className="Card">
         <Card.Title className="CardTitle">{title}</Card.Title>
-        <Card.Img className="Image" src={img} />
+        <Link to={`/product/${id}`} className="Link">
+          <Card.Img className="Image" src={img} />
+        </Link>
         <Card.Body>
           <div className="PriceHeart">
             <Card.Text className="CardPriceBefore">
               Antes: {priceBefore}{" "}
             </Card.Text>
-            <ItemHeart />
+            <ItemHeart  item={props.data}/>
           </div>
           <Card.Text className="CardPrice">${price.toFixed(2)} </Card.Text>
           <Card.Text className="CardDesc"> </Card.Text>
           <Link to={`/product/${id}`} className="Link">
-            <Button variant="dark">Ver detalle del producto</Button>
+            <Button variant="dark">Ver detalle</Button>
           </Link>
         </Card.Body>
       </Card>
