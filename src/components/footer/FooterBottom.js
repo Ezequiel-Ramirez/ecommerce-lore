@@ -1,19 +1,17 @@
 import "./FooterBottom.css";
 
-import { GoMarkGithub } from "react-icons/go";
-
-
+import { GrLinkedin } from "react-icons/gr";
 
 const FooterBottom = () => {
   return (
     <div className="FooterBottom">
-      <p>Sitio creado por Leo López Barrios, Web Developer Front End</p>
+      <p>Sitio creado por Ezequiel Ramirez, Web Developer Front End</p>
       <a
-        href="https://github.com/leolbarrios20"
+        href="https://www.linkedin.com/in/ezequiel-e-ramirez/"
         target="_blank"
         rel="noreferrer"
       >
-        <GoMarkGithub color="white" size={23} />
+        <GrLinkedin color="white" size={23} />
       </a>
     </div>
   );

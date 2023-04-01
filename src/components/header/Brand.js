@@ -5,7 +5,7 @@ const Brand = () => {
   return (
     <div className="BrandContainer me-5">
       <Link to="/" className="LogoSpecsContainer">
-        <span>S</span> <p>taylo</p>
+        <img className="logoMenu" src="/iconoLore.png" alt="logo" />
       </Link>
     </div>
   );

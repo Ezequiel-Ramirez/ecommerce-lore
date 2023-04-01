@@ -4,7 +4,12 @@
   cursor: pointer;
   text-decoration: none;
   color: rgb(255, 255, 255);
-  font-family: "Colonna MT";
+  font-family: 'Cormorant', serif;
+  
+}
+
+.logoMenu {
+  width: 7vw;
 }
 
 .LogoSpecsContainer:hover {
@@ -14,21 +19,27 @@
 .LogoSpecsContainer span {
   font-weight: 400;
   font-size: 60px;
-  font-family: "Colonna MT";
+  font-family: 'Cormorant', serif;
 }
 
 @media (max-width: 990px) {
   .LogoSpecsContainer span {
     font-size: 50px;
+    
   }
 
   .BrandContainer {
     transform: translate(0, 4px);
+  }
+  
+  .logoMenu {
+    width: 20vw;
   }
 }
 
 .LogoSpecsContainer p {
   font-weight: 400;
   font-size: 32px;
-  font-family: "Colonna MT";
+  font-family: 'Cormorant', serif;
+  
 }
