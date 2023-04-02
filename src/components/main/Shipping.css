@@ -28,14 +28,14 @@
   padding: 20px;
   text-align: center;
   margin-top: 50px;
-  background-image: url("../assets/img/fondo5.jpg");
+  background-image: url("../assets/img/fondo6.jpg");
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
 
-.mx-auto {
+.containerTextoEnvio {
   background-color: rgba(0, 0, 0, 0.2);
   border-radius: 15px;
   padding: 20px;

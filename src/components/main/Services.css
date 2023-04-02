@@ -4,13 +4,18 @@
 
 
 
-.ShippingContainer {
+.ServiceContainer {
   padding: 20px;
   text-align: center;
   margin-top: 50px;
+  background-image: url("../assets/img/fondo7.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.ShippingContainer h3 {
+.ServiceContainer h3 {
   font-family: "agency_fb", sans-serif;
   font-weight: 700;
   margin-bottom: 50px;
@@ -19,20 +24,20 @@
 }
 
 @media (max-width: 990px) {
-  .ShippingContainer h3 {
+  .ServiceContainer h3 {
     font-size: 8vw;
   }
 }
 
 @media (max-width: 600px) {
-  .ShippingContainer h3 {
+  .ServiceContainer h3 {
     font-size: 11vw;
   }
 }
 
 
 
-.ShippingContainer .Paragraph {
+.ServiceContainer .Paragraph {
   font-weight: 600;
   text-align: center;
 }
@@ -125,12 +130,14 @@
   text-align: left;
   max-width: 400px;
   background-color: #212429;  color: white;
+  border-radius: 15px;
+  margin-bottom: 50px;
 }
 
 .ContactLink{
   font-weight: 600;
   text-decoration: none;
-  background-color: #212429;
+  background-color: #dd6764;
   padding: 15px 20px;
   color: rgb(228, 228, 228);
   transform: translate(0, 200px);
@@ -140,7 +147,7 @@
 
 .ContactLink:hover{
   color: rgb(228, 228, 228);
-  background-color: #393e47;
+  background-color: #da5552;
 }
 
 .FlexServices{

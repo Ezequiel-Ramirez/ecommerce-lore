@@ -30,7 +30,7 @@ const Shipping = () => {
         </div>
       ) : (
         <div className="ShippingContainer col-12">
-          <div className=" mx-auto">
+          <div className="containerTextoEnvio mx-auto">
             <h3>Formas de envío</h3>
             <div className="ShippingParagraphContainer">
 

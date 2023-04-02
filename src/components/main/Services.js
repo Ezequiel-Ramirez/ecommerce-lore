@@ -34,19 +34,14 @@ const Services = () => {
           <Spinner />
         </div>
       ) : (
-        <div className="ShippingContainer col-12">
+        <div className="ServiceContainer col-12">
           <div className="mx-auto">
             <h3>Servicios</h3>
             <div className="FlexServices col-12 mx-auto">
-              <p className="ParagraphServices">
-                Ofrecemos un servicio de sublimación y estampado. Podes darnos
-                las prendas, los diseños y nosotros nos encargamos del resto.
+              <p className="ParagraphServices" style={{fontFamily: "Cormorant, serif", letterSpacing:'1.5px', backgroundColor: 'rgba(0, 0, 0, 0.4)'}}>
+                Ofrecemos un servicio de diseño personalizado. Podes darnos
+                las medidas, los diseños y nosotros nos encargamos del resto.
               </p>
-              <img
-                className="ServicesImg col-12"
-                src={ServicesImg}
-                alt=""
-              ></img>
             </div>
           </div>
           <Link className="ContactLink" to="/contact/">
