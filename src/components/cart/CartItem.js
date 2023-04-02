@@ -6,33 +6,18 @@ import { Card } from "react-bootstrap";
 import { FaTrash } from "react-icons/fa";
 
 import "./CartItem.css";
+import { Link } from "react-router-dom";
 
 const CartItem = ({ item, quantity }) => {
   const { removeItem } = useContext(GContext);
 
-
-  /*
-  const [quantityItem, setQuantityItem] = useState(quantity);
-
-  const add = () => {
-    setQuantityItem(quantityItem + 1);
-    console.log(quantity);
-  };
-
-  const subtract = () => {
-    if (quantityItem > 0) {
-      setQuantityItem(quantityItem - 1);
-    }
-    if (quantityItem < 2) {
-      removeItem(item.id);
-    }
-  };
-*/
   return (
     <section className="row col-lg-4 col-md-6 col-sm-12 mx-auto">
       <Card className="Card">
         <Card.Title className="CardTitle">{item.title}</Card.Title>
-        <Card.Img className="Image" src={item.img} />
+        <Link to={`/product/${item.id}`} className="Link">
+          <Card.Img className="Image" src={item.img} />
+        </Link>
         <Card.Body>
           <div className="QuantityFlex">
             <Card.Text className="CardPriceBefore">

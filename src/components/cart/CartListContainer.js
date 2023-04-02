@@ -111,14 +111,14 @@ const CartListContainer = () => {
                       <BsArrowRight size={25} />
                     </Link>
                     <div className="ButtonFlex">
-                      <Link to="/products/">
-                        <Button variant="success" className="GoToPay">
-                          Agregar productos
+                      <Link to="/products/" style={{textDecoration: 'none'}}>
+                        <Button variant="dark" className="GoToPay" >
+                          Seguir comprando
                         </Button>
                       </Link>
                       <Button
-                        variant="danger"
-                        className="GoToPay"
+                        variant="outline-dark"
+                        className="GoToPay2"
                         onClick={clear}
                       >
                         Vaciar Carrito
@@ -188,25 +188,25 @@ const CartListContainer = () => {
                     El carrito de compras se encuentra vacio
                   </p>
                   <Link className="AddMoreProducts" to="/products">
-                    <Button variant="dark">Agregar Productos</Button>
+                    <Button className="AddMoreProducts"  >Agregar Productos</Button>
                   </Link>
                 </div>
                 <div className="FlexIconsCartContainer">
                   <p>Visita nuestras redes</p>
                   <div className="FlexIconsCart">
                     <a
-                      href="https://www.instagram.com/staylo_cba/"
+                      href="https://www.instagram.com/lovebylore_/"
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <BsInstagram color="black" size={25} />
+                      <BsInstagram color="white" size={25} />
                     </a>
                     <a
-                      href="https://www.facebook.com/search/top?q=staylo_cba"
+                      href=""
                       target="_blank"
                       rel="noreferrer"
                     >
-                      <BsFacebook color="black" size={25} />
+                      <BsFacebook color="white" size={25} />
                     </a>
                   </div>
                 </div>

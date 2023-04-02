@@ -72,11 +72,11 @@ const ItemCount = ({ initial, stock, onAdd, product }) => {
             </p>
           </Modal.Body>
           <Modal.Footer>
-            <Button variant="dark" onClick={handleClose}>
+            <Button className="ButonModalNoAdd" variant="dark" onClick={handleClose}>
               Cancelar
             </Button>
             <div onClick={() => onAdd(countProducts)}>
-              <Button variant="success" onClick={handleClose}>
+              <Button className="ButonModalAdd" variant="dark" onClick={handleClose}>
                 Agregar
               </Button>
             </div>

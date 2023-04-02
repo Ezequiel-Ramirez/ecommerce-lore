@@ -15,19 +15,19 @@ const SocialMedia = () => {
         <BsInstagram color="white" size={22}  />
       </a>
       <a
-        href="https://www.facebook.com/search/top?q=staylo_cba"
+        href=""
         target="_blank"
         rel="noreferrer"
       >
         <BsFacebook color="white" size={23} />
       </a>
-      <a
+      {/* <a
         href="https://github.com/leolbarrios20"
         target="_blank"
         rel="noreferrer"
       >
         <GoMarkGithub color="white" size={23} />
-      </a>
+      </a> */}
     </div>
   );
 };

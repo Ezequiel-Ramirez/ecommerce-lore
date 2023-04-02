@@ -58,7 +58,7 @@ const ItemDetail = ({ item }) => {
     setLoading(true);
     setTimeout(() => {
       setLoading(false);
-    }, 1500);
+    }, 1000);
   }, []);
 
   //////////////////////////////////////////////////////
@@ -196,7 +196,7 @@ const ItemDetail = ({ item }) => {
                   </div>
                 </Modal.Body>
                 <Modal.Footer>
-                  <Button onClick={handleClose} variant="danger">
+                  <Button className="ButtonModalCards" onClick={handleClose} variant="dark">
                     Cerrar
                   </Button>
                 </Modal.Footer>

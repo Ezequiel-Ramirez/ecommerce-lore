@@ -4,17 +4,21 @@ import { useEffect, useState } from "react";
 
 import { BsHeart, BsHeartFill } from "react-icons/bs";
 
-const ItemHeart = ({item}) => {
+const ItemHeart = ({ item }) => {
   const [like, setLike] = useState(true);
   const [local, setLocal] = useState([]);
-  
+
   useEffect(() => {
-    const local = localStorage.getItem("local");
-    if (local) {
-      setLocal(JSON.parse(local));
-    }
+    setTimeout(() => {
+      const local = localStorage.getItem("local");
+      if (local) {
+        setLocal(JSON.parse(local));
+      } else {
+        localStorage.setItem("local", JSON.stringify([]));
+      }
+    }, 400);
   }, []);
-  
+
 
   const handleClick = () => {
     //lee local storage y si no existe lo crea con un array vacio y si existe lo parsea con el id del producto para que no se repita
@@ -35,7 +39,7 @@ const ItemHeart = ({item}) => {
       localStorage.setItem("local", JSON.stringify([item.id]));
     }
   };
-  
+
   function isLiked(id) {
     if (local.includes(id)) {
       return false;
@@ -43,12 +47,13 @@ const ItemHeart = ({item}) => {
       return true;
     }
   }
-  
+
   useEffect(() => {
-    setLike(isLiked(item.id));
+    let isFavourite = isLiked(item.id);
+    setLike(isFavourite);
   }, [local]);
-  
-  
+
+
 
   return (
     <div className="ItemHeart" onClick={handleClick}>

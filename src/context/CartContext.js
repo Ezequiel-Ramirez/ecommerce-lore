@@ -1,25 +1,31 @@
-import { createContext, useState } from "react";
+import { createContext, useEffect, useState } from "react";
 export const GContext = createContext();
 
 const CartContext = ({ children }) => {
-  const [itemsCarrito, setItemsCarrito] = useState([]);
+  const [itemsCarrito, setItemsCarrito] = useState( localStorage.getItem("carrito") ? JSON.parse(localStorage.getItem("carrito")) : [] );
+
+  useEffect(() => {
+    //si ya hay algo en el local storage carrito, lo borro y lo vuelvo a guardar
+    localStorage.removeItem("carrito");
+    
+    localStorage.setItem("carrito", JSON.stringify(itemsCarrito));
+  }, [itemsCarrito]);
+  
+  
 
   const addItem = (item, quantity) => {
     const newItem = isInCart(item);
     if (newItem) {
-      quantity = quantity + newItem.quantity;
-      setItemsCarrito(
-        itemsCarrito.splice(
-          itemsCarrito.findIndex((element) => element.item.id === item.id),
-          1
-        )
-      );
+      newItem.quantity += quantity;
+      setItemsCarrito([...itemsCarrito]);
+    } else {
+      setItemsCarrito([...itemsCarrito, { item, quantity }]);
     }
-    setItemsCarrito([...itemsCarrito, { item, quantity }]);
   };
+  
 
   const isInCart = (item) => {
-    return itemsCarrito.find((element) => element.item === item);
+    return itemsCarrito.find((e) => e.item.id === item.id);
   };
 
   const clear = () => {

@@ -45,6 +45,11 @@
 
 .RemoveItem {
   cursor: pointer;
+  transition: 0.3s;
+}
+
+.RemoveItem:hover {
+  color: #ff0000;
 }
 
 .QuantityFlex {

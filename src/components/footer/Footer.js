@@ -57,7 +57,7 @@ function Footer() {
               <BsInstagram color="white" size={18} />
             </a>
             <a
-              href="https://www.facebook.com/search/top?q=staylo_cba"
+              href=""
               target="_blank"
               rel="noreferrer"
             >

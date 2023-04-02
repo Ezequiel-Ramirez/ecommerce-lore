@@ -219,3 +219,15 @@ p .StockProduct {
   font-size: 14px;
 }
 
+.ButtonModalCards {
+  background-color: #dd6764;
+  color: white;
+  border-color: #dd6764;
+  font-family: "Cormorant", serif;
+}
+
+.ButtonModalCards:hover {
+  background-color: #c65a57;
+  color: white;
+  border-color: #c65a57;
+}

@@ -45,3 +45,32 @@
 .ModalBody p span {
   font-weight: 700;
 }
+
+
+.ButonModalAdd {
+    background-color: #dd6764;
+    color: white;
+    border-color: #dd6764;
+    font-family: "Cormorant", serif;
+}
+
+.ButonModalAdd:hover {
+    background-color: #c65a57;
+    color: white;
+    border-color: #c65a57;
+}
+
+.ButonModalNoAdd {
+    background-color: #f2f2f2;
+    color: black;
+    border-color: #f2f2f2;
+    font-family: "Cormorant", serif;
+}
+
+.ButonModalNoAdd:hover {
+    background-color: #e6e6e6;
+    color: black;
+    border-color: #e6e6e6;
+}
+
+
