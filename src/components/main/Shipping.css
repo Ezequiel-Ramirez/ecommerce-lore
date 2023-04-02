@@ -8,6 +8,7 @@
   font-family: "agency_fb", sans-serif;
   letter-spacing: 1px;
   list-style: none;
+  color: rgb(240, 240, 240);  
 }
 
 .ShipmentFlexImg li span {
@@ -27,6 +28,17 @@
   padding: 20px;
   text-align: center;
   margin-top: 50px;
+  background-image: url("../assets/img/fondo5.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.mx-auto {
+  background-color: rgba(0, 0, 0, 0.2);
+  border-radius: 15px;
+  padding: 20px;
 }
 
 .ShippingContainer h3 {
@@ -53,7 +65,9 @@
 .ShippingContainer .Paragraph {
   font-weight: 600;
   text-align: center;
+  color: rgb(240, 240, 240);  
 }
+
 
 
 .IconFlex {
