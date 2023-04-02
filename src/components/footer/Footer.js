@@ -74,8 +74,8 @@ function Footer() {
             >
               <FiMail color="white" size={17} className="me-1" />
             </a>
-            <a href="mailto:stayloremeras@outlook.com.ar" style={{textDecoration: 'none'}}>
-              <p >stayloremeras@outlook.com.ar</p>
+            <a href="mailto:lovebyloreoficial@gmail.com" style={{textDecoration: 'none'}}>
+              <p >lovebyloreoficial@gmail.com</p>
             </a>
           </div>
           <div className="ContactFlex">

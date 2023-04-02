@@ -8,8 +8,6 @@ import { TbTruckDelivery } from "react-icons/tb";
 
 import { BiLockAlt } from "react-icons/bi";
 
-import ServicesImg from "../assets/img/servicio.jpg";
-
 import "./Services.css";
 
 const Services = () => {
