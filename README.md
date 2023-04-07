@@ -52,7 +52,7 @@ En esta base de datos encontramos dos colecciones:
 ##### Para la visualización del proyecto podemos hacerlo mediante:
 
 #### - Sitio Web:
-[https://ecommerce-lore.netlify.app/](https://ecommerce-lore.netlify.app/)
+[https://ecommerce-lore.vercel.app/](https://ecommerce-lore.vercel.app/)
 
 #### - Repositorio GitHub:
 
