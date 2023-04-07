@@ -24,6 +24,8 @@ import { Link } from "react-router-dom";
 import { FaRegMoneyBillAlt } from "react-icons/fa";
 import Form from "react-bootstrap/Form";
 import { Spinner } from "react-bootstrap";
+import { IoLogoWhatsapp } from "react-icons/io5";
+import ComponentWhatsapp from "../utils/ComponentWhatsapp";
 
 const ItemDetail = ({ item }) => {
   function ScrollToTop() {
@@ -124,6 +126,7 @@ const ItemDetail = ({ item }) => {
               <div className="TitleHeartFlex">
                 <h3> {item.title} </h3>
                 <ItemHeart item={item}/>
+                <IoLogoWhatsapp color="green" size={24} onClick={() => ComponentWhatsapp(item)} style={{cursor: 'pointer'}}/>
               </div>
 
               <h4>${item.price}</h4>

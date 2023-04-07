@@ -16,6 +16,7 @@ import "./ItemDetailContainer.css";
 const ItemDetailContainer = () => {
   const [product, setProduct] = useState({});
   const { productId } = useParams();
+  console.log(productId)
 
   useEffect(() => {
     const getProduct = async () => {

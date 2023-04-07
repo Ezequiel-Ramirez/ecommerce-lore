@@ -3,7 +3,7 @@
 //Módulos
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { HashRouter, Routes, Route } from "react-router-dom";
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 
 //Estilos
 import "./index.css";
@@ -31,33 +31,30 @@ const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <CartContext>
-      <HashRouter>
+      <BrowserRouter>
         <Header />
         <Routes>
           <Route
-            exact
             path="/"
-            element={<Main brand="Staylo" specs="Remeras PerSonalizadas" />}
+            element={<Main brand="LOVE By LORE" specs="Lencería" />}
           />
-          <Route exact path="/shipping" element={<Shipping />} />
-          <Route exact path="/services" element={<Services />} />
-          <Route exact path="/contact" element={<Contact />} />
-          <Route exact path="/products" element={<ItemListContainer />} />
+          <Route path="/shipping" element={<Shipping />} />
+          <Route path="/services" element={<Services />} />
+          <Route path="/contact" element={<Contact />} />
+          <Route path="/products" element={<ItemListContainer />} />
           <Route
-            exact
             path="/product/:productId"
             element={<ItemDetailContainer />}
           />
-          <Route exact path="/cart" element={<CartListContainer />} />
+          <Route path="/cart" element={<CartListContainer />} />
           <Route
-            exact
             path="/products/:categoryId"
             element={<ItemListContainer />}
           />
-          <Route exact path="/send-order" element={<BuyForm />} />
+          <Route path="/send-order" element={<BuyForm />} />
         </Routes>
         <Footer />
-      </HashRouter>
+      </BrowserRouter>
     </CartContext>
   </React.StrictMode>
 );

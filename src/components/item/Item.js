@@ -8,6 +8,9 @@ import { Button } from "react-bootstrap";
 import { Card } from "react-bootstrap";
 
 import { Link } from "react-router-dom";
+import ComponentWhatsapp from './../utils/ComponentWhatsapp';
+
+import {IoLogoWhatsapp} from 'react-icons/io5';
 
 //Logic
 
@@ -19,18 +22,14 @@ export const Item = (props) => {
       <Card className="Card">
         <Card.Title className="CardTitle">{title}</Card.Title>
         <Link to={`/product/${id}`} className="Link">
-          <Card className="CardImage"
-            style={{
-              backgroundImage: `url(${img})`, backgroundSize: "cover", backgroundPosition: "center", backgroundRepeat: "no-repeat", height: "400px", width: "400px", margin: "auto"
-            }}
-          />
-          {/*  <Card.Img className="Image" src={img} /> */}
+          <Card.Img className="Image" src={img} />
         </Link>
         <Card.Body>
           <div className="PriceHeart">
             <Card.Text className="CardPriceBefore">
               Antes: {priceBefore}{" "}
             </Card.Text>
+            <IoLogoWhatsapp color="green" size={24} onClick={() => ComponentWhatsapp(props.data)} style={{cursor: 'pointer'}}/>
             <ItemHeart item={props.data} />
           </div>
           <Card.Text className="CardPrice">${price.toFixed(2)} </Card.Text>

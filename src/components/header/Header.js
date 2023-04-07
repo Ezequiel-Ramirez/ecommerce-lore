@@ -37,22 +37,22 @@ function Header() {
           />
           <Navbar.Collapse id="basic-navbar-nav" className="NavBarCollapse">
             <Nav className="NavBar me-auto  mt-2">
-              <Nav.Link className="hvr-underline-from-left" href="/#">
+              <Nav.Link className="hvr-underline-from-left" href="/">
                 Inicio
               </Nav.Link>
-              <Nav.Link className="hvr-underline-from-left" href="/#/products">
+              <Nav.Link className="hvr-underline-from-left" href="/products">
                 Productos
               </Nav.Link>
-              <Nav.Link className="hvr-underline-from-left" href="/#/shipping">
+              <Nav.Link className="hvr-underline-from-left" href="/shipping">
                 Envios
               </Nav.Link>
-              <Nav.Link className="hvr-underline-from-left" href="/#/services">
+              <Nav.Link className="hvr-underline-from-left" href="/services">
                 Servicios
               </Nav.Link>
-              <Nav.Link className="hvr-underline-from-left" href="/#/contact">
+              <Nav.Link className="hvr-underline-from-left" href="/contact">
                 Contacto
               </Nav.Link>
-              <Nav.Link href="/#/cart">
+              <Nav.Link href="/cart">
                 <div className="CartSocialFlex ">
                   <div className="CartSocialResp">
                     <CartWidget />
