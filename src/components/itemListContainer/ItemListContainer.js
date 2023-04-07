@@ -91,21 +91,24 @@ const ItemListContainer = () => {
             <OverlayTrigger overlay={<Tooltip>Tops</Tooltip>}>
               <span className="d-inline-block">
                 <Link to="/products/top">
-                  <IoShirtOutline color="black" size={31} />
+                  {/*    <IoShirtOutline color="black" size={31} /> */}
+                  <span style={{ fontSize: '23px' }}>👚</span>
                 </Link>
               </span>
             </OverlayTrigger>
             <OverlayTrigger overlay={<Tooltip>Vedetinas</Tooltip>}>
               <span className="d-inline-block">
                 <Link to="/products/vedetina">
-                  <GiHoodie color="black" size={31} />
+                  {/* <GiHoodie color="black" size={31} /> */}
+                  <span style={{ fontSize: '23px' }}>🩲</span>
                 </Link>
               </span>
             </OverlayTrigger>
             <OverlayTrigger overlay={<Tooltip>Less</Tooltip>}>
               <span className="d-inline-block">
                 <Link to="/products/less">
-                  <IoShirtSharp color="black" size={31} />
+                  {/* <IoShirtSharp color="black" size={31} /> */}
+                  <span style={{ fontSize: '23px' }}>👙</span>
                 </Link>
               </span>
             </OverlayTrigger>
