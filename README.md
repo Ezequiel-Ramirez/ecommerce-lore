@@ -1,6 +1,6 @@
 # Staylo - Ecommerce de Remeras Personalizadas
 
-![](https://github.com/leolbarrios20/Staylo/blob/main/src/components/assets/img/StayloLogo.jpg)
+![](https://github.com/leolbarrios20/Staylo/blob/main/public/iconoLore.png)
 
 ## Sobre Este Proyecto
 
