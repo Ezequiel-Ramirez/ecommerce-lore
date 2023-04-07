@@ -1,6 +1,6 @@
 export default function ComponentWhatsapp(producto) {
 
-    const urlProducto = `http://localhost:3000/product/${producto.id}`;
+    const urlProducto = `https://ecommerce-lore.vercel.app/product/${producto.id}`;
     let saltoLinea = "%0D%0A";
     const numeroCelular = "91154547386";
     const textoMensaje = `Hola LoveByLore, estoy interesado en el producto: ${saltoLinea} ${saltoLinea} -${producto.title} a  $${producto.price}.00 ${saltoLinea} ${saltoLinea} ${urlProducto}`;
